@@ -73,6 +73,7 @@ npm run build
 2. 通过 `Get-CimInstance` / `Get-PnpDevice` 探测哪些打印机对应的物理设备当前处于"在线/已连接"状态，用于区分同一根 USB 线切换后哪台才是真正当前接入的打印机；
 3. 用户选择目标打印机后，通过 `WScript.Network` COM 对象的 `SetDefaultPrinter` 方法设置为系统默认打印机。
 
+![alt text](/img/image.png)
 ## 已知限制
 
 - 仅支持 Windows，依赖 PowerShell 环境
