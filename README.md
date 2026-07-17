@@ -20,7 +20,7 @@
 ## 项目结构
 
 ```
-my-vue-app/
+printer-switcher/
 ├── electron/               # Electron 相关配置
 ├── src/
 │   ├── assets/
